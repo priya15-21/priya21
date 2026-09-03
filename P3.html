@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .about {
+            margin: 20px;
+        }
+        .form-section {
+            margin: 20px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .courses {
+            margin: 20px;
+        }
+        .instructions {
+            margin: 20px;
+        }
+        input, select, textarea {
+            margin: 8px 0;
+            padding: 8px;
+            width: 95%;
+        }
+        button {
+            margin: 10px 5px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to Seshadripuram College</h1>
+        <p>Empowering Students Through Knowledge</p>
+    </div>
+
+    <div class="about">
+        <h2>About Our College</h2>
+        <p>Seshadripuram College offers a wide range of undergraduate and postgraduate programs in computer applications, commerce, science, and arts. Our mission is to provide quality education and prepare students for future careers.</p>
+    </div>
+
+    <div class="form-section">
+        <h2>Student Registration Form</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course">
+                <option value="bca">BCA</option>
+                <option value="bcom">B.Com</option>
+                <option value="bsc">B.Sc</option>
+                <option value="ba">B.A</option>
+            </select><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="3"></textarea><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+
+    <div class="courses">
+        <h2>Courses Offered</h2>
+        <dl>
+            <dt>BCA</dt>
+            <dd>Bachelor of Computer Applications – Focuses on programming, web development, and software design.</dd>
+
+            <dt>B.Com</dt>
+            <dd>Bachelor of Commerce – Covers accounting, finance, and business management.</dd>
+
+            <dt>B.Sc</dt>
+            <dd>Bachelor of Science – Offers specializations in physics, chemistry, mathematics, and computer science.</dd>
+
+            <dt>B.A</dt>
+            <dd>Bachelor of Arts – Includes subjects like literature, history, sociology, and political science.</dd>
+        </dl>
+    </div>
+
+    <div class="instructions">
+        <h2>Instructions for Students</h2>
+        <ul>
+            <li>Fill in all required fields in the registration form.</li>
+            <li>Provide a valid email address for communication.</li>
+            <li>Choose your preferred course carefully.</li>
+            <li>Submit the form before the deadline.</li>
+            <li>Keep a copy of your registration details for reference.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
