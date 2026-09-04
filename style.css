@@ -1,0 +1,182 @@
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			background: #fffaf2;
+			color: #2d241f;
+			font-family: Arial, sans-serif;
+		}
+
+		header,
+		footer {
+			padding: 28px 8%;
+			background: #5b2c1f;
+			color: #fff;
+			text-align: center;
+		}
+
+		header h1 {
+			margin: 0 0 8px;
+			font-size: 2.4rem;
+		}
+
+		header p {
+			margin: 0 0 18px;
+			font-size: 1.1rem;
+		}
+
+		nav a,
+		.order-link {
+			margin: 0 8px;
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		nav a:hover,
+		.order-link:hover {
+			text-decoration: underline;
+		}
+
+		.order-cta {
+			display: inline-block;
+			margin-top: 12px;
+			padding: 10px 18px;
+			border-radius: 5px;
+			background: #fff;
+			color: #5b2c1f;
+		}
+
+		.order-cta:hover {
+			background: #ffe0d5;
+			text-decoration: none;
+		}
+
+		main {
+			max-width: 1100px;
+			margin: 0 auto;
+			padding: 28px 5%;
+		}
+
+		.menu-category {
+			margin: 22px 0;
+			padding: 22px;
+			border-radius: 12px;
+		}
+
+		.menu-category h2 {
+			margin-top: 0;
+		}
+
+		.breakfast {
+			background: #fff0c2;
+		}
+
+		.lunch {
+			background: #dff3df;
+		}
+
+		.snacks {
+			background: #ffe0d5;
+		}
+
+		.beverages {
+			background: #dceeff;
+		}
+
+		.menu-content {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			gap: 24px;
+		}
+
+		table {
+			flex: 1 1 480px;
+			width: 100%;
+			border-collapse: collapse;
+			background: #e4d4d4;
+		}
+
+		th,
+		td {
+			padding: 11px;
+			border: 1px solid #8c7468;
+			text-align: left;
+		}
+
+		th {
+			background: #6f3d2d;
+			color: #fff;
+		}
+
+		.featured {
+			width: 220px;
+			height: 145px;
+			border: 3px solid #6f3d2d;
+			border-radius: 10px;
+			object-fit: cover;
+		}
+
+		footer {
+			margin-top: 12px;
+		}
+
+		footer p {
+			margin: 7px 0;
+		}
+
+		.order-form {
+			max-width: 520px;
+			margin: 22px auto;
+			padding: 20px;
+			border-radius: 10px;
+			background: #fff;
+			color: #2d241f;
+			text-align: left;
+		}
+
+		.order-form label {
+			display: block;
+			margin: 12px 0 5px;
+			font-weight: bold;
+		}
+
+		.order-form input,
+		.order-form select,
+		.order-form textarea {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #c9b8af;
+			border-radius: 5px;
+			font: inherit;
+		}
+
+		.order-form textarea {
+			min-height: 75px;
+			resize: vertical;
+		}
+
+		.order-form button {
+			margin-top: 16px;
+			padding: 11px 20px;
+			border: 0;
+			border-radius: 5px;
+			background: #6f3d2d;
+			color: #fff;
+			cursor: pointer;
+			font-weight: bold;
+		}
+
+		.order-form button:hover {
+			background: #5b2c1f;
+		}
+
+		#order-message {
+			color: #2d6a35;
+			font-weight: bold;
+			text-align: center;
+		}
