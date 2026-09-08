@@ -10,5 +10,5 @@ for i in num:
 		b = i
 
 print("first Largest:", a)
-print("Second largest:", b)
+print("Second largest:", b) 
 		
